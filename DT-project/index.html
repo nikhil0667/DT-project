@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+    <script src="jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="navbar">
+            <img id="logo" src="./img/logo.png" />
+            <img src="./img/home.png" alt="" id="home" />
+            <img src="./img/services.png" alt="not" id="service" />
+            <img src="./img/noti.png" alt="" id="notification" />
+            <img src="./img/profile.png" alt="" id="profile" />
+        </div>
+        <div id="body">
+            <div id="sidebar">
+                <nav role="navigation">
+                    <div id="menuToggle">
+
+                        <input type="checkbox">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                        <ul id="menu">
+                            <h5>1.Name of the task goes here </h5>
+                            <hr id="line">
+                            <li><a href="#">Task Heading 1</a></li>
+                            <hr id="line">
+                            <li><a href="#">Task Heading 2</a></li>
+                            <hr id="line">
+                            <li><a href="#">Task Heading 3</a></li>
+                            <hr id="line">
+                            <li><a href="#">Task Heading 4</a></li>
+                            <hr id="line">
+                            <li><a href="#">Task Heading 5</a></li>
+                            <hr id="line">
+                            <li><a href="#">Task Heading 6</a></li>
+                            <hr id="line">
+                            <li><a href="#">Task Heading 7</a></li>
+                            <hr id="line">
+                            <li><a href="#">Task Heading 8</a></li>
+                            <hr id="line">
+                            <li><a href="#">Task Heading 9</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div><!-- side1 -->
+            <div id="rightBody">
+                <div id="heading">
+                    <h1 id="header">You Are Taking challenges of New Project </h1>
+                </div>
+                <div id="main">
+                    <div id="demo">
+                        <h1>Demo task</h1>
+                    </div>
+                    <div id="div1">
+                        <!-- Task  1 -->
+                        <div id="task1">
+                            <h1 id="h1task1">Task Heading 1</h1>
+                            <div id="SH1">
+                                <p id="p1task1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt saepe
+                                    maxime ut repellat ad, expedita placeat consequatur optio laboriosam dignissimos
+                                    enim quod mollitia animi iusto assumenda illo labore perferendis laborum rem,
+                                    dolorem minus itaque obcaecati ea voluptatum! Rem deserunt dolores eius praesentium
+                                    accusamus? Asperiores sed dolores, ex eligendi dolorum voluptatibus?
+                                </p>
+                            </div>
+                            <div id="shbtn1">
+                                <img src="./img/down-filled-triangular-arrow.png " style=" margin-top: 0px; width:
+                                20px;height:20px;margin-left:400px">
+                            </div>
+                        </div>
+                        <!-- Task  2 -->
+                        <div id="task2">
+                            <h1 id="h1task2">Task Heading 2</h1>
+                            <!-- Thread A -->
+                            <div id="shbtn2"
+                                style="display:flex; flex-direction: row; height:40px;box-shadow: 0px 4px 4px rgba(0,0,0,0.25)">
+                                <div>
+                                    <img src="./img/arrow-up.png "
+                                        style="margin-top: px; width: 20px; height: 20px;margin-left:10px" />
+
+                                </div>
+                                <div>
+                                    <h1 style=" margin-top: 0px; margin-left:40px"> Thread A</h1>
+                                </div>
+                            </div>
+                            <div id="SH2">
+
+                                <!-- Sub thread -->
+                                <div style="display:flex;  flex-direction:row;">
+                                    <div
+                                        style=" height:60px; margin: 20px;background-color:#1111;border-radius: 10px 10px 10px 10px;">
+                                        <h3 style=" height:20px;margin-top: 0px; margin-left: 10px ;padding-top: 10px;">
+                                            Sub Thread 1
+                                        </h3>
+
+                                        <input
+                                            style="border: 0px solid #FFFFFF;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px 10px 10px 10px; height:50px;width:180px;margin: 10;"
+                                            type="text" placeholder="Enter Text Here">
+                                    </div>
+                                    <!-- Sub interpretation 1 -->
+                                    <div
+                                        style=" margin: 20px; background-color:#1111;border-radius: 10px 10px 10px 10px;">
+                                        <h3 style="margin-top: 0px;margin-left: 10px ;padding-top: 10px;">
+                                            Sub interpretation 1
+                                        </h3>
+                                        <input
+                                            style=" padding: px 0px; border: 0px solid #FFFFFF;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);border-radius: 10px 10px 10px 10px; height:50px;width: 180px;margin: 10;"
+                                            type="text" placeholder="Enter Text  Here">
+                                    </div>
+                                </div>
+                                <!-- New line -->
+                                <div style="margin-left:30px; display:flex; flex-direction: row; height:40px;">
+                                    <img style="margin-left: 10px; width: 20px;height: 20px;"
+                                        src="./img/light-bulb.png" />
+                                    <img style="margin-left: 10px; width: 20px;height: 20px" src="./img/comment.png" />
+                                    <div style="margin-left: 10px; " id=" d-flex pt-3 justify-content-end">
+                                        <select style="border: 0px solid #FFFFFF; box-shadow: 0px 4px 4px #00000040;"
+                                            name="category" value="" id="sdlms-form-select w-50 mr-3"
+                                            sdlms-id="sdlms-subthread-category-0" data-dirrty-initial-value="">
+                                            <option value="">Select Category</option>
+                                            <option value="remark">Remark</option>
+                                            <option value="subargument">Sub-argument</option>
+                                            <option value="subexplanation">Sub-explanation</option>
+                                            <option value="coreprinciple">Core-principle</option>
+                                        </select>
+                                        <select
+                                            style="border: 0px solid #FFFFFF; margin-left: 15px; box-shadow: 0px 4px 4px #00000040;"
+                                            name="process" value="" id="sdlms-form-select w-50"
+                                            sdlms-id="sdlms-subthread-process-0" data-dirrty-initial-value="">
+                                            <option value="">Select Process</option>
+                                            <option value="question">Question</option>
+                                            <option value="analogy">Analogy</option>
+                                            <option value="sarcasm">Sarcasm</option>
+                                            <option value="insight">Insight</option>
+                                            <option value="counterexample">Counter-Example</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <button onclick="return btn()" style=" border: 0px solid #0029FF;height: 30px;color: #FFFFFF;margin-top: 0px;
+                                margin-left: 23px; background: #0029FF;border-radius: 6px;">+
+                                    Sub thread</button>
+                                <!-- new line -->
+                                <div
+                                    style="border: 0px solid #FFFFFF; margin: 20px; background-color:#1111;border-radius: 10px 10px 10px 10px;">
+                                    <h3 style="margin-top: 50px;margin-left: 10px ;padding-top: 10px;">
+                                        Summary for Thread A
+                                    </h3>
+                                    <input
+                                        style=" border: 0px solid #FFFFFF;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);border-radius: 10px 10px 10px 10px; height:50px;width: 416px;margin: 10;"
+                                        type="text" placeholder="Enter Text Here">
+                                </div>
+                                <!--  -->
+                                <div style="display:flex; flex-direction: row; height:40px;">
+                                    <div>
+                                        <h3 style="margin-top: 0px;margin-left: 30px;">ThreadCredit</h3>
+                                    </div>
+                                    <div>
+                                        <select
+                                            style="border: 0px solid #FFFFFF;  margin-left: 130px; box-shadow: 0px 4px 4px #00000040;"
+                                            name="emotions" value="" id="sdlms-form-select"
+                                            sdlms-id="sdlms-thread-emotions-0" data-dirrty-initial-value="">
+                                            <option value="">Select Emotion</option>
+                                            <option value="eurekaEmphasis">Eureka Emphasis</option>
+                                            <option value="blissfullyPuzzled">Blissfully Puzzled</option>
+                                            <option value="spirituallyDetermined">Spiritually Determined</option>
+                                            <option value="upsetandmotivated">Upset &amp; Motivated</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <button onclick="return btn()"
+                                    style="border: 0px solid #0029FF; width: 140px; height: 40px;color: #FFFFFF;margin-left: 23px;background: #0029FF;border-radius: 6px;">
+                                    + New Thread</button>
+                                <div>
+                                    <img src="./img/diskette.png"
+                                        style="margin-top: px; width: 20px; height: 20px;margin-left:400px" />
+
+                                </div>
+                                <div
+                                    style=" display:box; flex-direction: row; height:40px;border-radius:0px 10px 10px 10px">
+                                    <img src="./img/down-filled-triangular-arrow.png"
+                                        style="margin-top: 20px; width: 20px; height: 20px;margin-left:410px" />
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="div2">
+                        <!-- Task3 -->
+                        <div id="task3">
+                            <h1 id="h1task3">Task Heading 3</h1>
+                            <div id="SH3"
+                                style=" margin: 20px; background-color:#1111;border-radius: 10px 10px 10px 10px;">
+                                <input
+                                    style="text-align:justify; border: 0px solid #FFFFFF;box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);border-radius: 10px 10px 10px 10px; height:150px;width: 416px;"
+                                    type="text" placeholder="Reflect as per givem guidlines">
+                            </div>
+                            <div id="shbtn3" style="display:box; flex-direction: row; height:40px;
+                                            border-radius: 10px 10px 0px 0px">
+                                <img src="./img/down-filled-triangular-arrow.png"
+                                    style="margin-top: 0px; width: 20px; height: 20px;margin-left:410px" />
+                            </div>
+                        </div>
+                        <!-- Task4 -->
+                        <div id="task4">
+
+                            <h1 id="h1task4">Task Heading 4</h1>
+                            <div>
+                                <center id="SH4">
+                                    <iframe
+                                        src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
+                                        frameBorder="0" scrolling="auto" width="430px" height="680px">
+
+                                    </iframe>
+
+                                </center>
+                                <div id="shbtn4"
+                                    style="display:box; flex-direction: row; height:40px;border-radius: 10px 10px 0px 0px">
+                                    <img src="./img/down-filled-triangular-arrow.png"
+                                        style="margin-top: 20px; width: 20px; height: 20px;margin-left:410px" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="div3">
+                        <!-- task 5 -->
+                        <div id="task5">
+                            <h1 id="h1task5">Task Heading 5</h1>
+                            <div id="SH5">
+                                <div id="shbtn5A"
+                                    style="margin-top: 5px;background-color: rgba(17, 17, 17, 0.068); display:flex; flex-direction: row; height:40px;">
+                                    <div>
+                                        <img src="./img/arrow-up.png " style=" margin-top: 10px; width:
+                                    20px;height:20px;margin-left:10px">
+                                    </div>
+                                    <div>
+                                        <h1 style=" margin-top: 5px; margin-left:40px"> introduction</h1>
+                                    </div>
+                                </div>
+                                <!-- input -->
+                                <div id="SH5A">
+                                    <input
+                                        style="margin-left: 50px ; margin-top: 30px; margin-bottom:30px; border: 0px solid #FFFFFF;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);border-radius: 10px 10px 10px 10px; height:80px;width: 348px;"
+                                        type="text" placeholder="Enter Text Here">
+                                </div>
+                                <!-- heading -->
+                                <div id="shbtn5B"
+                                    style="margin-top: 5px; background-color: rgba(17, 17, 17, 0.048); display:flex; flex-direction: row; height:40px;">
+                                    <div>
+                                        <img src="./img/arrow-up.png "
+                                            style="margin-top: 10px; width: 20px; height: 20px;margin-left:10px" />
+
+                                    </div>
+                                    <div>
+                                        <h1 style=" margin-top: 5px; margin-left:40px"> Thread A</h1>
+                                    </div>
+                                </div>
+                                <div id="SH5B">
+                                    <div
+                                        style=" border: 0px solid #FFFFFF;  margin-top: 30px;margin-left:50px;   margin-right: 50px ; background-color:#1111;border-radius: 10px 10px 10px  10px;">
+                                        <h3 style="margin-top: 0px;margin-left: 10px ;padding-top: 10px;">
+                                            Example 1
+                                        </h3>
+                                        <input
+                                            style=" border: 0px solid #FFFFFF;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);border-radius: 10px 10px 10px 10px; height:80px;width: 348px;"
+                                            type="text" placeholder="Enter Text Here">
+                                    </div>
+                                    <div> <button onclick="return btn()"
+                                            style="border: 0px solid #0029FF; width: 140px; height: 40px;color: #FFFFFF;margin-top:30px;margin-left:50px;background: #0029FF;border-radius: 6px;">
+                                            + Example</button>
+                                    </div>
+                                    <!-- new Line -->
+                                    <div
+                                        style=" border: 0px solid #FFFFFF; margin-top:30px; margin-left:50px;   margin-right: 50px; background-color:#1111;border-radius: 10px 10px 10px 10px;">
+                                        <h3 style="margin-top: 0px;margin-left: 10px ;padding-top: 10px;">
+                                            Argument for thread A
+                                        </h3>
+                                        <input
+                                            style=" border: 0px solid #FFFFFF;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);border-radius: 10px 10px 10px 10px; height:80px;width: 348px;"
+                                            type="text" placeholder="Enter Text Here">
+                                    </div>
+                                    <button onclick="return btn()"
+                                        style="border: 0px solid #0029FF; width: 140px; height: 40px;color: #FFFFFF;margin-top:30px;margin-left:50px;background: #0029FF;border-radius: 6px;">
+                                        + New Thread</button>
+                                </div>
+                                <div id="shbtn5C"
+                                    style="margin-top: 30px;background-color: rgba(17, 17, 17, 0.068); display:flex; flex-direction: row; height:40px;">
+                                    <div>
+                                        <img src="./img/arrow-up.png "
+                                            style=" margin-top: 10px; width: 20px; height: 20px;margin-left:10px" />
+                                    </div>
+                                    <div>
+                                        <h1 style=" margin-top: 5px; margin-left:40px"> Conclusion</h1>
+                                    </div>
+                                </div>
+                                <div id="SH5C">
+                                    <input style=" text-align: left; margin-left: 50px ; margin-top: 30px; margin-bottom:30px; border: 0px solid #FFFFFF;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                                        border-radius: 10px 10px 10px 10px; 
+                                        height:80px;width: 348px;" type="text" placeholder="Enter Text Here">
+
+                                    <div>
+                                        <img src="./img/diskette.png"
+                                            style="margin-top: 0px; width: 20px; height: 20px;margin-left:380px" />
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="shbtn5" style="margin-top: 20px; display:box; flex-direction: row; height:40px;">
+                                <img src="./img/down-filled-triangular-arrow.png"
+                                    style="margin-top: 10px; width: 20px; height: 20px;margin-left:410px" />
+                            </div>
+                        </div>
+                        <!-- task 6 -->
+                        <div id="task6">
+                            <h1 id="h1task6">Task Heading 6</h1>
+
+                            <div id="SH6"
+                                style="display: block;margin-left: 50px; margin-right: 50px; margin-top: 20px;  background-color: rgba(17, 17, 17, 0.027);height: 90px; width: 350px;">
+
+                                <audio controls style="margin: 20px;">
+                                    <source src="./music/Music.aac" type="audio/aac">
+                                </audio>
+
+                            </div>
+                            <div id="shbtn6">
+                                <img src="./img/down-filled-triangular-arrow.png"
+                                    style="margin-top: 10px; width: 20px; height: 20px;margin-left:410px" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="div4">
+                        <div id="task7">
+                            <h1 id="h1task7">Task Heading 7</h1>
+                            <div id="SH7">
+                                <iframe style="margin-top: 0px;" src="https://youtu.be/s8H0Sx7jy7c?controls=0"
+                                    frameborder="0" width="498px" height="220px"></iframe>
+                            </div>
+                            <div id="shbtn7">
+                                <img src="./img/down-filled-triangular-arrow.png"
+                                    style="margin-top: 10px; width: 20px; height: 20px;margin-left:410px" />
+                            </div>
+                        </div>
+                    </div>
+                    <button id="Next" onclick="return btn()">Next</button>
+                </div>
+            </div><!-- side2 -->
+        </div> <!-- body -->
+        <script>
+            function btn() {
+                alert("Button Clicked");
+                return true;
+            }
+            $(document).ready(function ()
+             {
+                $("#shbtn1").click(function () {
+                    $("#SH1").toggle();
+                });
+                $("#shbtn2").click(function () {
+                    $("#SH2").toggle();
+                });
+                $("#shbtn3").click(function () {
+                    $("#SH3").toggle();
+                });
+                $("#shbtn4").click(function () {
+                    $("#SH4").toggle();
+                });
+                $("#shbtn5").click(function () {
+                    $("#SH5").toggle();
+                });
+                $("#shbtn5A").click(function () {
+                    $("#SH5A").toggle();
+                });
+                $("#shbtn5B").click(function () {
+                    $("#SH5B").toggle();
+                });
+                $("#shbtn5C").click(function () {
+                    $("#SH5C").toggle();
+                });
+
+                $("#shbtn6").click(function () {
+                    $("#SH6").toggle();
+                });
+                $("#shbtn7").click(function () {
+                    $("#SH7").toggle();
+                });
+            });
+
+
+        </script>
+</body>
+
+</html>
